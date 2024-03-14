@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &461038960253595139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 461038960253595137}
+  - component: {fileID: 461038960253595138}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &461038960253595137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461038960253595139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5947819, y: 0.16874626, z: -0.020971233}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &461038960253595138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461038960253595139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa225192cf4d1234dafe5bfd371ba973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelPassed: 0
+  gameOver: 0
+  numBricks: 0
+  numLives: 3
+  score: 0
+  currentLevel: 0
+  livesText: {fileID: 0}
+  scoreText: {fileID: 0}
+  GameOverPanel: {fileID: 0}
+  LoadingLevelPanel: {fileID: 0}
+  mainBall: {fileID: 0}
+  allLevels:
+  - {fileID: 8552450565777982256, guid: 69a0d7b8f970ab7418cd2dac222038b6, type: 3}
+  - {fileID: 4210905072307943393, guid: df5b38484c5f0b44c9e13beb21e45b9b, type: 3}
